@@ -1,0 +1,49 @@
+body{
+  width: 95%;
+  margin: auto;
+  font-family: sans-serif;
+}
+main{
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background: #00000047;
+}
+.curriculo{
+  display: table;
+}
+
+.fotoPerfil{
+  margin-top: 15px;
+  display: table-cell;
+  float: right;
+}
+
+.nome{
+  display: table-cell;
+  margin-top: 15px;
+  float: left;
+  width: 1000px;
+}
+.informações{
+  margin-top: 30px;
+  margin-left: 10px;  
+}
+
+#menu ul{
+  margin: 0;
+  background: #000000a1;
+  list-style: none;
+}
+#menu li{
+  display: inline;
+}
+#menu a{
+  padding: 10px 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+#menu ul li a:hover{
+  color: black;
+}
